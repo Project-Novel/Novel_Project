@@ -24,14 +24,15 @@ function Navbar() {
             <div className="leftSide">
                 <div className="links" id={showLinks ? "hidden" : ""}>
                     <a href="/">Home</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact</a>
+                    <a href="#">연재</a>
+                    <a href="#">완결</a>
+                    <a href="#">E-Book</a>
+                    <a href="#">커뮤니티</a>
                 </div>
             <button onClick={()=> setShowLinks(!showLinks)}>Open</button>
             </div>   
             <div className="rightSide">
-                <input type="text" placeholder="Search..."/>
+                <input type="text" placeholder="검색어를 입력해주세요"/>
                 <button>Search</button>
             </div>  
         </div>

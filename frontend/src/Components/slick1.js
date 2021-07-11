@@ -23,16 +23,16 @@ export default class SimpleSlider extends Component {
         <div>
               <Slider {...settings}>
                 <div>
-                    <img className="photo" src={imgfile01} />
+                    <img className="photo1" src={imgfile01} />
                 </div>
                 <div>
-                    <img className="photo" src={imgfile02} />
+                    <img className="photo1" src={imgfile02} />
                 </div>
                 <div>
-                    <img className="photo" src={imgfile03} />
+                    <img className="photo1" src={imgfile03} />
                 </div>
                 <div>
-                    <img className="photo" src={imgfile04} />
+                    <img className="photo1" src={imgfile04} />
                 </div>
               </Slider>
             </div>

@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memberMapper">
+	<!-- 게시판 글 작성 -->
+	<insert id="register">
+	    INSERT INTO MEMINFO(   NAME, ID, PW, NICKNAME, ADDRESS, NUM 	)
+	                  VALUES(    #{name}, #{id}, #{pw}, #{nickname}, #{address}, #{num}   )
+    </insert>
+   
+</mapper>

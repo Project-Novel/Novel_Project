@@ -14,7 +14,7 @@ export default class SimpleSlider extends Component {
         dots: true,
         infinite: true,
         speed: 1500,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -29,7 +29,7 @@ export default class SimpleSlider extends Component {
                   </div>
                   <div>
                       <img className="photo" src={imgfile02} />
-                      <b>예2제목</b><br/>
+                      <b className = "Font">예2제목</b><br/>
                       예2 내용
                   </div>
                   <div>

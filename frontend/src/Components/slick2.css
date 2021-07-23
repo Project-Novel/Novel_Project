@@ -1,4 +1,11 @@
-.photo {
+.sort {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sort .photo {
     height: 300px;
     width: 200px;
     padding-left: 25px;

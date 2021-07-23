@@ -22,13 +22,13 @@ export default class SimpleSlider extends Component {
       return (
           <div>
                 <Slider {...settings}>
-                  <div>
+                  <div className = "sort">
                       <img className="photo" src={imgfile01} />
                       <b>예1제목</b><br/>
                       예1 내용
                   </div>
                   <div>
-                      <img className="photo" src={imgfile02} />
+                      <img className="photo1" src={imgfile02} />
                       <b>예2제목</b><br/>
                       예2 내용
                   </div>

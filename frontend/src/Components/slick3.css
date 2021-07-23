@@ -2,3 +2,9 @@
     height: 300px;
     width: 200px;
 }
+.Font {
+    flex: auto;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
